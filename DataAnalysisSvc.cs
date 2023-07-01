@@ -158,7 +158,7 @@ namespace QExcelAddIn
         private void Timer_Tick(object sender, EventArgs e, int count, int total)
         {
             var progress = (count * 100.0) / total;
-            Debug.WriteLine($"{progress:0.00}/100");
+            Debug.WriteLine($"precessed {count} out of {total}, finished {progress:0.00}/100");
         }
     }
 }
